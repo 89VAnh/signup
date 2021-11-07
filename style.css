@@ -191,3 +191,13 @@ a:hover,
   color: #fff;
   background-color: transparent;
 }
+@media (max-width: 1023px) {
+  .top-row {
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 40px;
+  }
+  .top-row > div {
+    width: 100%;
+  }
+}
